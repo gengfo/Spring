@@ -8,6 +8,8 @@ Take sample of the book spring enterprise to understand the transaction objects 
 mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.gengfo -DartifactId=sprting-trancaction-basic
 
 
+
+
 ---- TECH 讲解 ----
 Spring事务管理主要有三个借口：
 1. PlatformTransactionManager：根据TransactionDefinition提供的事务属性配置信息，创建事务，并用TransactionStatus描述这个激活事务的状态。 
