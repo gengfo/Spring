@@ -1,3 +1,7 @@
+ReflectTest_ch3
+
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=gengfo.test -DartifactId=ReflectTest_ch3
+
 mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=gengfo.test -DartifactId=mf-mif-usage
 
 ----------------------------------------------------------------------
