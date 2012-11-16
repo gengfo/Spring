@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/avalon-framework.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/carol.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/carol-iiop-delegate.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/carol-interceptors.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/commons-cli.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/geronimo-corba_3.0_spec.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/geronimo-jms_1.1_spec.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/howl.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/irmi.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jacorb.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jacorb-idl.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jakarta-regexp.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jcup.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/joram-client.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/joram-mom.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/joram-shared.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jotm-client.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jotm-core.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jotm-datasource.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jotm-jms.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/jotm-standalone.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/logkit.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/monolog.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/ow2-connector-1.5-spec.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/ow2-jta-1.1-spec.jar"/>
+	<classpathentry kind="lib" path="C:/GengFo/MyProjs/GitHub/Spring/Spring-Jotm-Dist/jotm-dist-example/libs/xapool.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

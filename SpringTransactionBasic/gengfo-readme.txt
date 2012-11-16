@@ -1,6 +1,6 @@
 C:\GengFo\GitHub\Spring\SpringTransactionBasic
-
 Take sample of the book spring enterprise to understand the transaction objects lived in jvm
+example in page 305
 
 ~ enviornment preparation
 1. oracle db setup
@@ -17,4 +17,5 @@ Spring事务管理主要有三个借口：
 3. TransactionStatus
 
 ~ TransactionDefinition
+
 
