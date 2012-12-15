@@ -149,3 +149,14 @@ spring transaction的通常配置方法：
 
 
 
+-------------mysql usage------------------
+already installed
+~mysqld start as windows service
+
+mysql -u root -p
+oocl123456
+use mysql;
+grant all privileges on *.* to dbuser@localhost identified by 'oocl123456' with grant option;
+create database BookDB;
+
+
