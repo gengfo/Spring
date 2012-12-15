@@ -114,3 +114,38 @@ public class UserDao{ //bean class
 
 JSR-250定义@Resource，@Resource按名称匹配注入，@Autowired默认按类型匹配
 JSR-330定义@Inject
+
+
+～spring事务核心api
+interface PlatformTransactionManager -> 根据TransactionDefinition的定义创建事务，并用TransactionStatus记录状态
+TransactionStatus getTransaction(TransactionDefinition definition) throws TransactionException;
+void commit
+void rollback
+interface TransactionDefinition ->描述事务的隔离级别、超时时间、是否为只读事务、事务传播规则等控制事务行为的事务属性
+interface TransactionStatus -> 描述已经激活事务的状态
+
+
+~JPA Transaction: JPA通过javax.persistence.EntityTransaction管理JPA的事务，EntityTransaction对象可以通过javax.persistence.EntityManager#getTransaction()获得，而EntityManager又通过javax.persistence.EntityManagerFactory()#createEntityManager()获得。JPA依然通过底层JDBC connection的事务方法完成最终事务控制。
+~配置JPA事务管理器：
+1. 提供一个data source
+2. 配置一个EntityManagerFactory
+3. 配置JpaTransactionManager
+
+EntityManager的创建过程：
+javax.persistence.spi.PersistenceProvider接口有JPA的实现者提供，该接口有容器调用，以便创建EntityManagerFacttory实例。
+
+~proxy-target-class
+ spring进行事务管理时，有proxy-target-class属性，定义事务dao是接口还是类，默认为false，为接口，如果dao为实现类时就会报以上错误，将 proxy-target-class设置为true就可以了。 
+
+在spring中@Transaction是通过AOP实现的，而spring对AOP有两种实现方式，一种是动态代理，它是通过接口方式实现的，要求所代理的类一定是实现了某一个接口，对一般的类就无法代理，spring默认是这种；通过设置proxy-target-class="true"，则是使用CGLIB实现AOP，CGLIB直接生成二进制码，使得普通类也可以实现AOP。在没有设置proxy-target-class="true"时，使用动态代理，是一个临时生成的类，如proxy17，它不是@Resource指定的类，因此出现了上述错误。 
+
+
+spring transaction的通常配置方法：
+1. 配置datasource，作为事务管理的具体实现机制
+2. 配置trasaction manager 并关联到datasource
+3. 配置advisor, 包括pointcut 以及advice，也就是类切入点，以及切入的逻辑
+4. 将transaction manager 和advisor 进行管理，制定事务管理
+
+
+
+
