@@ -3,6 +3,10 @@ package com.gengfo;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.gengfo.domain.Post;
+import com.gengfo.domain.Topic;
+import com.gengfo.service.BbtForum;
+
 
 public class TestBbtForumAnno{
 
