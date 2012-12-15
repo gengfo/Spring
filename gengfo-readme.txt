@@ -114,4 +114,3 @@ public class UserDao{ //bean class
 
 JSR-250定义@Resource，@Resource按名称匹配注入，@Autowired默认按类型匹配
 JSR-330定义@Inject
->>>>>>> 85440361ced5ae2cffe8f6f69563323b276a31a0
