@@ -60,7 +60,7 @@ public class User implements Serializable{
 
 
     public String toString() {
-        return (new ToStringBuilder(this) {
+        return (new ReflectionToStringBuilder(this) {
             protected boolean accept(Field f) {
                 if(f.getType().isPrimitive() || f.getType() == String.class ){
                     return true;

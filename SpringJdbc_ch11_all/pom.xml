@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.gengfo</groupId>
-	<artifactId>TransactionHard_MixDbAccess_ch10_p341</artifactId>
+	<artifactId>SpringJdbc_ch11_all</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>TransactionHard_MixDbAccess_ch10_p341</name>
+	<name>SpringJdbc_ch11_all</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -66,6 +66,12 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>3.0.5.RELEASE</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
 			<version>3.0.5.RELEASE</version>
 		</dependency>
@@ -85,67 +91,43 @@
 			<artifactId>cglib</artifactId>
 			<version>2.2.2</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
 			<version>20030825.184428</version>
 		</dependency>
-
-		<dependency>
+            
+            	<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.21</version>
 		</dependency>
-
-		<!-- <dependency> <groupId>commons-lang</groupId> <artifactId>commons-lang</artifactId> 
-			<version>20030203.000129</version> </dependency> -->
-		<dependency>
+            
+            	<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
-			<version>2.0</version>
+			<version>20030203.000129</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>commons-pool</groupId>
 			<artifactId>commons-pool</artifactId>
 			<version>20030825.183949</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
 			<version>20040616</version>
-		</dependency>
-
+		</dependency>			
+			
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjtools</artifactId>
 			<version>1.7.0</version>
 		</dependency>
-
-
-		<dependency>
-			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.0-api</artifactId>
-			<version>1.0.1.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>3.6.5.Final</version>
-		</dependency>
-
-
-		<!-- <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-core</artifactId> 
-			<version>4.1.7.Final</version> </dependency> -->
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-hibernate</artifactId>
-			<version>3.0.5.RELEASE</version>
-		</dependency>
-
+            
 
 	</dependencies>
 </project>

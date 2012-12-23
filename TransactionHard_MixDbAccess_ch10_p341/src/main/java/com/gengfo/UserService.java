@@ -34,7 +34,7 @@ public class UserService extends BaseService {
     }
 
      public static void main(String[] args) {
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("com/baobaotao/mixdao/applicationContext.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("com/gengfo/applicationContext.xml");
         UserService service = (UserService) ctx.getBean("userService");
         JdbcTemplate jdbcTemplate = (JdbcTemplate) ctx.getBean("jdbcTemplate");
         //插入一条记录，初始分数为10
