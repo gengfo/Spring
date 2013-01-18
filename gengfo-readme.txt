@@ -1,3 +1,5 @@
+tried clone to office pc
+
 ?? apache common lang StringBuilder usage
 
 mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.gengfo -DartifactId=AopBasic_ch6_p178
