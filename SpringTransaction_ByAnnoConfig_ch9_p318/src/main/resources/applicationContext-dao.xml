@@ -24,7 +24,7 @@
 		p:dataSource-ref="dataSource"/>
 	<bean id="abstracDao" abstract="true"
 	    p:jdbcTemplate-ref="jdbcTemplate"/>
-	<bean id="forumDao" parent="abstracDao" class="com.baobaotao.dao.jdbc.ForumJdbcDao"/>
-	<bean id="topicDao" parent="abstracDao" class="com.baobaotao.dao.jdbc.TopicJdbcDao"/>
-    <bean id="postDao" parent="abstracDao" class="com.baobaotao.dao.jdbc.PostJdbcDao"/>
+	<bean id="forumDao" parent="abstracDao" class="com.gengfo.dao.jdbc.ForumJdbcDao"/>
+	<bean id="topicDao" parent="abstracDao" class="com.gengfo.dao.jdbc.TopicJdbcDao"/>
+    <bean id="postDao" parent="abstracDao" class="com.gengfo.dao.jdbc.PostJdbcDao"/>
 </beans>

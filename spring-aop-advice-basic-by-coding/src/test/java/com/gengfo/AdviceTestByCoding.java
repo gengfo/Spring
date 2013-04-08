@@ -2,7 +2,6 @@ package com.gengfo;
 
 import junit.framework.TestCase;
 
-import org.springframework.aop.AfterAdvice;
 import org.springframework.aop.BeforeAdvice;
 import org.springframework.aop.framework.ProxyFactory;
 
@@ -11,7 +10,7 @@ public class AdviceTestByCoding extends TestCase {
 	public void testGreetingBeforeAdvice() {
 		Waiter target = new NaiveWaiter();
 		BeforeAdvice beforeAdvice = new GreetingBeforeAdvice();
-		AfterAdvice afterAdvice = new GreetingAfterAdvice();
+		//AfterAdvice afterAdvice = new GreetingAfterAdvice();
 
 		ProxyFactory pf = new ProxyFactory();
 		pf.setInterfaces(target.getClass().getInterfaces());
