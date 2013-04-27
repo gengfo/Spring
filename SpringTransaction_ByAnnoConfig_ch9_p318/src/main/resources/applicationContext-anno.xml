@@ -9,7 +9,7 @@
 	<import resource="classpath:applicationContext-dao.xml" />
 
 	<bean id="bbtForum" 
-	     class="com.baobaotao.service.impl.BbtForumImpl"
+	     class="com.gengfo.service.impl.BbtForumImpl"
 		 p:forumDao-ref="forumDao"
 		 p:topicDao-ref="topicDao"
 		 p:postDao-ref="postDao" />
