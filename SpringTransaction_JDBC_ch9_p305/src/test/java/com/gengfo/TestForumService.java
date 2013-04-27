@@ -29,7 +29,7 @@ public class TestForumService {
 //		ForumService forumService = ctx.getBean(ForumService.class);
 //		System.out.println("begin...........");
 //		forumService.addTopic();
-//		System.out.println("end!!!!!!!!!!!!!");
+	    System.out.println("end!!!!!!!!!!!!!");
 	}
 
 }
